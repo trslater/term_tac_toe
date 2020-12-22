@@ -1,7 +1,6 @@
 # Term Tac Toe
 
-This started as a way to try our curses library, but it turned out to be fairly
-interesting.
+This started as a way to try our curses library, but it turned out to be fairly interesting.
 
 Basically, this is Tic Tac Toe in a terminal interface (TUI).
 

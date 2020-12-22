@@ -107,8 +107,9 @@ class Board:
 
 class Cursor:
     def __init__(self, board):
-        self.x_max = board.size - 1
-        self.y_max = board.size - 1
+        self.board = board
+        self.x_max = self.board.size - 1
+        self.y_max = self.board.size - 1
 
         self._x = 0
         self._y = 0
